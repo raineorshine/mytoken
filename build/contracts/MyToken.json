@@ -1,0 +1,73 @@
+{
+  "contract_name": "MyToken",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "balanceB",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "personB",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "personA",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "balanceA",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b61c35060028190556003555b5b6101908061002c6000396000f300606060405263ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166332733a08811461005e5780634e274c991461008357806359b65d56146100bf5780639c4eda5c146100fb575b600080fd5b341561006957600080fd5b610071610120565b60405190815260200160405180910390f35b341561008e57600080fd5b610096610126565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b34156100ca57600080fd5b610096610142565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b341561010657600080fd5b61007161015e565b60405190815260200160405180910390f35b60035481565b60015473ffffffffffffffffffffffffffffffffffffffff1681565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b600254815600a165627a7a723058209840cd5ff363fe9c04912211367af8abe64bb6db5a085387bd7e64750032f42b0029",
+  "networks": {
+    "1507826995419": {
+      "events": {},
+      "links": {},
+      "address": "0x6b8f132cce9bab751e28ad0566543cba442ffdf9",
+      "updated_at": 1508289511590
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1508289511590
+}
